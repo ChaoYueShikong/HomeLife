@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_core_dialog"
+    style="@style/BASE1"
+    android:layout_gravity="center"
+    android:background="@drawable/core_loading_bg"
+    android:gravity="center"
+    android:minHeight="60dp"
+    android:minWidth="180dp"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ProgressBar
+        android:id="@+id/pb_core_progressbar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+         android:indeterminateDrawable="@drawable/core_progress_anim" />
+
+    <TextView
+        android:id="@+id/tv_core_dailog"
+        style="@style/BASE4"
+        android:padding="5dp"
+        android:textColor="#333333"
+        android:textSize="15sp"
+        android:text="@string/core_dialog" />
+
+</LinearLayout>

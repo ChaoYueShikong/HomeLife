@@ -1,0 +1,31 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply from: "dependencies.gradle"
+//apply plugin: 'me.tatarka.retrolambda' //Android Studio 3.0 及以上版本支持所有 Java 7 语言功能以及部分 Java 8 语言功能
+//https://developer.android.com/studio/write/java8-support?utm_source=android-studio
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.0'
+//        classpath 'me.tatarka:gradle-retrolambda:3.2.5'
+//        classpath 'me.tatarka:gradle-retrolambda:3.7.0'
+//        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

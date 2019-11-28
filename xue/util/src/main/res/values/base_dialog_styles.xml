@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016 QXWZ Corporation. All rights reserved.
+  ~
+  -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="core_common_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">
+            @android:style/Animation.Dialog
+        </item>
+        <item name="android:windowSoftInputMode" tools:targetApi="cupcake">
+            stateUnspecified|adjustPan
+        </item>
+    </style>
+
+    <style name="CustomProgressDialog" parent="@style/core_common_dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

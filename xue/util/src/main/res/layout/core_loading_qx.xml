@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/ll_core_dialog"
+              style="@style/BASE1"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_gravity="center"
+              android:background="@color/transparent"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/iv_wait"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/core_webview_loading"/>
+
+    <TextView
+        android:id="@+id/tv_MyDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:minWidth="60dp"
+        android:text="加载中..."
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+</LinearLayout>

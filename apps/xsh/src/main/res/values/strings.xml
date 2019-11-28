@@ -1,0 +1,10 @@
+<resources>
+    <!--String common -->
+    <string name="app_name">心心生活</string>
+    <string name="permission_str">权限被拒绝！</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放可以刷新数据</string>
+    <string name="refreshing">正在刷新数据...</string>
+    <string name="forget_pwd">忘记密码</string>
+    <string name="register">注册</string>
+</resources>

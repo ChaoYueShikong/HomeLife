@@ -1,0 +1,2 @@
+include 'apps:xsh'
+include 'xue:base', 'xue:net', 'xue:util'
