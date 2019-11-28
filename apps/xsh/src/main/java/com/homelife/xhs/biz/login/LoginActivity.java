@@ -35,7 +35,6 @@ public class LoginActivity extends BaseBizActivity {
         mLoginPresenter.subscribe();
     }
 
-
     @Override
     protected void onStart() {
         super.onStart();
